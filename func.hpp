@@ -1,3 +1,6 @@
+#ifndef "func.hpp"
+#define "func.hpp"
+
 #include <opencv/cv.h>
 #include <opencv2/highgui/highgui.hpp>
 #include <stdlib.h>
@@ -74,3 +77,5 @@ int work(IplImage *src)
         cvDestroyAllWindows();
         return 0;
 }
+
+#endif
